@@ -7,7 +7,7 @@ contract TestTaskToken {
     
     string constant private _name = "Test Task Token";
     string constant private _symbol = "TTT";
-    uint8 constant private _decimals = 10;
+    uint8 constant private _decimals = 2;
     uint constant private _totalSupply = 100;
     
     address payable private _owner;
